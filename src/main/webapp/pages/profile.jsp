@@ -7,7 +7,7 @@
 <body>
     <%@include file="../includes/header-authorised.jsp"%>
 
-    <div class="profile">
+    <form class="profile">
         <div class="profile-title">
             <div class="profile-title-text">
                 Личный кабинет
@@ -15,6 +15,7 @@
         </div>
 
         <div class="profile-content">
+        <form>
             <table class="profile-fields">
                 <tr class="profile-firstName-zone">
                     <td>
@@ -55,6 +56,7 @@
             <button class="profile-button">
                 Редактировать профиль
             </button>
+        </form>
         </div>
     </div>
 

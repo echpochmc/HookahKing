@@ -637,10 +637,6 @@ td {
     margin-left: 20px;
 }
 
-.add-to-basket-button {
-    margin-bottom: 0;
-}
-
 .product-title {
     display: flex;
     justify-content: center;
@@ -648,20 +644,15 @@ td {
     font-size: 17px;
 }
 
-.add-to-basket-button {
-    width: 100%;
-    height: 100%;
-    background-color: #da0008;
-    border: 0.5px solid black;
-    padding: 5px;
-}
-
 .product-price {
     font-weight: bold;
     font-size: 20px;
 }
 
-
+.add-to-basket-button {
+    width: 100%;
+    background-color: #da0008;
+}
 
 
 
